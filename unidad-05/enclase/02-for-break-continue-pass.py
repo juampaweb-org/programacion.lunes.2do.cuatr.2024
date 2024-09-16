@@ -1,11 +1,13 @@
 
 
 
-## pass -> No hace nada, continua a la siguiente instrucción
+
 for i in range(10):
     print("La variable i vale: ", i)
     pass
     print("Aca sigue....")
+
+
 
 #####################################################
 
@@ -15,7 +17,9 @@ for i in range(10):
 
 if (i == 0):
     print("i es cero")
-else: 
+else:
+    # Aca voy a tener que hacer tal cosa
+    # TODO: hacer tal cosa
     pass
 
 #####################################################

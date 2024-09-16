@@ -5,12 +5,12 @@
 subcadena_uno = "mi"
 subcadena_dos = "la"
 subcadena_tres = "ne"
-subcadena_cuatro = "sas"
+subcadena_cuatro = "sas--------------------------"
 
 # concatenar
 cadena_total = subcadena_uno + subcadena_dos + subcadena_tres + subcadena_cuatro
 
-print(cadena_total)
+# print(cadena_total)
 
 #########################################################
 
@@ -20,6 +20,8 @@ print(cadena_total)
 longitud_cadena = len(cadena_total)
 print(" La longitud de la cadena es: ", longitud_cadena)
 
+print("el tipo de dato de la variable longitud_cadena es: ", type(longitud_cadena))
+
 #########################################################
 
 
@@ -27,9 +29,9 @@ print(" La longitud de la cadena es: ", longitud_cadena)
 
 cadena = "Python es un lenguaje de alto nivel"
 
-indice = cadena.index("lenguaje")
+indice = cadena.index("e")
 
-print("El indice de la palabra 'lenguaje' es: ", indice)
+print("El indice del caracter 'e' es: ", indice)
 
 
 #########################################################
@@ -52,13 +54,12 @@ print(cadena[10:20])
 print(cadena[0:20:2])
 # salida: Pto su ega
 
-print(cadena[:-1])
+
+print(cadena[:-2])
 # salida: Python es un lenguaje de alto nive
 
-print(cadena[-1])
+print(cadena[-2])
 # salida: l
-
-
 
 #########################################################
 
@@ -68,10 +69,10 @@ print(cadena[-1])
 
 cadena = "Python es un lenguaje de alto nivel"
 
-if "lenguaje" in cadena:
-    print("La subcadena 'lenguaje' está en la cadena")
+if "pepe" in cadena:
+    print("La subcadena 'pepe' está en la cadena")
 
-if "lenguaje" not in cadena:
-    print("La subcadena 'lenguaje' no está en la cadena")
+if "pepe" not in cadena:
+    print("La subcadena 'pepe' no está en la cadena")
 
 
