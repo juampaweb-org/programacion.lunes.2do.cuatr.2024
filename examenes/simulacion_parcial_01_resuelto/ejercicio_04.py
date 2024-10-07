@@ -28,7 +28,9 @@ def reemplazo_vocales(lista_palabras):
     - lista_modificada: lista de palabras con las vocales reemplazadas por asteriscos
     """
     lista_modificada = []
+    # ["python", "javascript"]
     for palabra in lista_palabras:
+        
         palabra_modificada = ""
         for letra in palabra:
             if letra in "aeiou":
@@ -37,6 +39,7 @@ def reemplazo_vocales(lista_palabras):
                 palabra_modificada += letra
         
         lista_modificada.append(palabra_modificada)
+    
     return lista_modificada
 
 lista_lenguajes = ['python', 'php', 'javascript', 'ruby', 'c++', 'go', 'nodejs']
