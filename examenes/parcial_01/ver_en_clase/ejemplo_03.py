@@ -8,5 +8,3 @@ print("\nNumeros_impares:")
 for numero in numeros_impares:
     print(numero)
 
-exit()
-

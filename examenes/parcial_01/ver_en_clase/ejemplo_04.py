@@ -1,6 +1,10 @@
 
 
-
+def si_es_blanco(calificacion):
+    if calificacion > 7 :
+        return "C"
+    else:
+         return "D"
 
 def calificacion_estudiante(calificacion,nombre):
 
@@ -10,13 +14,9 @@ def calificacion_estudiante(calificacion,nombre):
         if calificacion>8 and calificacion<8.9:
            letra_calificacion="B"
         else:
-            if calificacion>7 and calificacion<7.9:
-               letra_calificacion="C"
-            else:
-                if calificacion>6 and calificacion<6.9:
-                   letra_calificacion="D"
-                else:
-                   letra_calificacion="F"
+            si_es_blanco(calificacion)
+         
+
     return letra_calificacion
 nota_alumno=7.5
 nombre_alumno="Gabriel"

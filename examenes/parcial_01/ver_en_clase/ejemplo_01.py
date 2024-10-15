@@ -1,5 +1,5 @@
 
-
+import random
 
 def generar_numeros_impares(cantidad, rango):
     """
