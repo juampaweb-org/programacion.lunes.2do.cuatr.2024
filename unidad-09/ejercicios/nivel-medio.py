@@ -10,6 +10,22 @@ Escribe una función que tome un diccionario como argumento y devuelva un nuevo 
 3. Agrupar elementos por clave:
 Dado un diccionario donde las claves son categorías y los valores son listas de elementos, escribe una función que invierta esta estructura, es decir, agrupe elementos por su categoría.
 
+
+categorias -> monitor led / computacion / monitor led / monitor plane
+
+monitores -> samsung 24p A650 / samsung 20p A650 / samsung 18p A332 / samsung 24p A650
+"""
+
+
+productos = {
+    'monitor led': ['samsung 24p A650', 'samsung 20p A650', 'samsung 18p A332', 'samsung 24p A650'],
+    'computacion': ['samsung 24p A650', 'samsung 20p A650'],
+    'monitor plano': ['samsung 24p A650']
+}
+
+
+
+"""
 4.Filtrar un diccionario:
 Escribe una función que tome un diccionario y un valor de umbral como argumentos y devuelva un nuevo diccionario con solo las entradas cuyos valores sean mayores que el umbral.
 

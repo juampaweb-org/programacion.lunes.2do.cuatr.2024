@@ -12,12 +12,16 @@
 
 # Un diccionario en Python es una colección de elementos, donde cada uno tiene una llave key y un valor value. Los diccionarios se pueden crear con paréntesis {} separando con una coma cada par key: value. En el siguiente ejemplo tenemos tres keys que son el nombre, la edad y el documento.
 
-d1 = {
+diccionario_uno = {
   "Nombre": "Sara",
   "Edad": 27,
   "Documento": 1003882
 }
-print(d1)
+
+
+diccionario_vacio = dict()
+
+
 #{'Nombre': 'Sara', 'Edad': 27, 'Documento': 1003882}
 
 # También podemos utilizar la función dict() para crear un diccionario. En este caso, debemos pasar una lista de tuplas, donde cada tupla contiene la llave y el valor.
@@ -27,7 +31,8 @@ d2 = dict([
       ('Edad', 27),
       ('Documento', 1003882),
 ])
-print(d2)
+
+exit()
 #{'Nombre': 'Sara', 'Edad': '27', 'Documento': '1003882'}
 
 # O le podemos indicar la clave directamente de la siguiente manera:

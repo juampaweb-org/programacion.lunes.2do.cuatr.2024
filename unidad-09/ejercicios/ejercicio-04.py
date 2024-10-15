@@ -7,7 +7,7 @@
 
 diccionario = {}
 
-
+ 
 def imprimir_diccionario( mi_diccionario ):
     """
     Va a imprimir el diccionario que recibe como argumento
