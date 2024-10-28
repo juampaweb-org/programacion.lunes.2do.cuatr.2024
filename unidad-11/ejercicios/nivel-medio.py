@@ -63,8 +63,11 @@
 
 
 
-# ### Ejercicio 9: Leer archivo JSON y buscar información
-# Escribe un programa que lea un archivo JSON llamado `data.json`, busque un valor específico dentro de los datos y lo imprima. Maneja errores de archivo y de formato JSON.
+# ### Ejercicio 9: Escribir un diccionario en un archivo CSV
+# Escribe un programa que tome un diccionario de agenda telefonica, que le pasemos nombre, apellido, telefono: provincia y lo escriba en un archivo CSV llamado `agenda_telefonica.csv`.
+# ordenado, sepereado por coma y con un encabezado.
+
+
 
 
 

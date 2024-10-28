@@ -1,0 +1,11 @@
+id,nombre,edad
+1,Juan,34
+2,María,29
+3,Carlos,45
+4,Ana,22
+5,Pedro,40
+6,Sofía,28
+7,Miguel,35
+8,Laura,33
+9,Diego,25
+10,Lucía,38

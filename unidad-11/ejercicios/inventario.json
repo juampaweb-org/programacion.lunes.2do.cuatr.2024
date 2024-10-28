@@ -1,0 +1,15 @@
+{
+    "productos": [
+      {"nombre": "Manzanas", "cantidad": 50},
+      {"nombre": "Peras", "cantidad": 40},
+      {"nombre": "Naranjas", "cantidad": 30},
+      {"nombre": "Plátanos", "cantidad": 25},
+      {"nombre": "Fresas", "cantidad": 20},
+      {"nombre": "Uvas", "cantidad": 60},
+      {"nombre": "Kiwi", "cantidad": 35},
+      {"nombre": "Melón", "cantidad": 15},
+      {"nombre": "Sandía", "cantidad": 10},
+      {"nombre": "Mango", "cantidad": 45}
+    ]
+  }
+  
