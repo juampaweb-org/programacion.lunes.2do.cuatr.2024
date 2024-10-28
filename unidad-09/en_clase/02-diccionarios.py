@@ -32,7 +32,7 @@ d2 = dict([
       ('Documento', 1003882),
 ])
 
-exit()
+# exit()
 #{'Nombre': 'Sara', 'Edad': '27', 'Documento': '1003882'}
 
 # O le podemos indicar la clave directamente de la siguiente manera:
@@ -46,3 +46,6 @@ print(d3)
 #{'Nombre': 'Sara', 'Edad': 27, 'Documento': 1003882}
 
 
+d3.insert(0, 'Apellido', 'Perez')
+
+print(d3)
